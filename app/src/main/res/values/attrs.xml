@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaterRippleView">
+        <attr name="rippleSpacing" format="dimension|reference"/>
+        <attr name="rippleCount" format="integer|reference"/>
+        <attr name="rippleColor" format="color|reference"/>
+        <attr name="rippleCenterIcon" format="reference"/>
+        <attr name="rippleAutoRunning" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -18,4 +18,8 @@ public class MainActivity extends BaseActivity {
         startActivity(new Intent(this, WaterRippleActivity.class));
     }
 
+    public void onClickCircleLoading(View v) {
+        startActivity(new Intent(this, CircleLoadingActivity.class));
+    }
+
 }

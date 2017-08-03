@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+        <com.yifeng.view.view.CircleLoadingView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:circleStartColor="#ffff00"
+            app:circleEndColor="#ff0000"
+            app:circleArcRadian="5"
+            app:circleArcWidth="10"
+            app:circleArcSpacing="10"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_avatar_default"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

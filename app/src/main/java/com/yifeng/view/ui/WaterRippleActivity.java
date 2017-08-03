@@ -27,6 +27,7 @@ public class WaterRippleActivity extends BaseActivity {
     public void onClickStart(View v) {
         mWaterWrv.start();
     }
+
     public void onClickStop(View v) {
         mWaterWrv.stop();
     }
